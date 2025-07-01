@@ -34,5 +34,6 @@ Set up Pi-hole DNS server to block ads and trackers.
 
 9. 📡 Tested Pi-hole blocking by pinging a known blocked domain
 Used ping and dig commands on the server to confirm blocked queries appear in Pi-hole logs.
-![Pi-hole screenshot](images/Pi-hole.png)
+![Pi-hole screenshot](https://github.com/jszolcek/Linux-Server-VM-Lab/raw/main/images/Pi-hole.png)
+
 
