@@ -60,6 +60,12 @@
    - Used `arp -a` on host to check MAC address resolution  
    - Confirmed host did **not** initially see pfSense MAC
 
+4.1 🛠️ **Removed and reassigned VirtualBox Host-Only Network adapter**  
+   - Deleted existing Host-Only adapter causing issues  
+   - Created a new Host-Only adapter (`vboxnet0`)  
+   - Reassigned pfSense LAN interface to new adapter  
+   - Restored MAC address visibility on host
+
 5. 🛡️ **Adjusted Windows firewall settings**  
    - Temporarily disabled firewall on Host-only network adapter  
    - Disabled any third-party antivirus/firewall shields
@@ -70,9 +76,7 @@
 
 7. 🌐 **Accessed pfSense Web GUI**  
    - Opened `http://192.168.56.1` in browser  
-   - Successfully loaded pfSense admin interface
-  ![pfSense screenshot](images/pfSense.png)
-
+   - Successfully loaded pfSense admin interface  
+   ![pfSense screenshot](images/pfSense.png)
 
 ---
-###
