@@ -60,7 +60,7 @@
    - Used `arp -a` on host to check MAC address resolution  
    - Confirmed host did **not** initially see pfSense MAC
 
-4.1 🛠️ **Removed and reassigned VirtualBox Host-Only Network adapter**  
+4.1 🛠️ **Removed and reassigned VirtualBox Host-Only Network adapter** (questioned myself again for the 4,213,125th time why I'm doing this via VM's and not just on a spare old pc)  
    - Deleted existing Host-Only adapter causing issues  
    - Created a new Host-Only adapter (`vboxnet0`)  
    - Reassigned pfSense LAN interface to new adapter  
